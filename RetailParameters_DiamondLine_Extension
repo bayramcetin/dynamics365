@@ -1,0 +1,9 @@
+[ExtensionOf(tablestr(RetailParameters))]
+final class RetailParameters_DiamondLine_Extension
+{
+    static NumberSequenceReference numRefETGWholeSalesRequestNo()
+    {
+        return NumberSeqReference::findReference(extendedTypeNum(ETGWholeSalesRequestNo));
+    }
+
+}
